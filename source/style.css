@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.pai{
+    display: flex;
+    background-color: #f35b7e;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.filho{
+    background-color: aliceblue;
+    height: 90vh;
+    width: 80vw;
+    border-radius: 60px;
+    
+}
+
+header{
+    display: flex;
+    width: 80vw;
+    height: 80px;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    width: 40vw;
+}
+
+main{
+    display: flex;
+    height: calc( 90vh - 80px);
+    flex-direction: column;
+    width: 80vw;
+    align-items: center;
+    justify-content: space-around;
+    font-size: xxx-large;
+}   
+
+
