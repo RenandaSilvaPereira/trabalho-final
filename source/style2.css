@@ -14,6 +14,7 @@
     font-size: 30px;
 
 }
+
 .pai{
     display: flex;
     background-color: #f35b7e;
@@ -53,14 +54,38 @@ main{
     height: calc( 90vh - 80px);
     flex-direction: column;
     width: 80vw;
-    align-items: center;
-    justify-content: space-around;
-    font-size: xxx-large;
+    /* align-items: center; */
+    justify-content: space-evenly;
+    
 }   
 
-.conteudo{
+.pix{
     color: #b3404a;
     text-shadow: 2.5px 2.5px 3px #f4b2b0 ;
-
+    margin-bottom: 15vh;
+    width: 20vw;
+}
+.pix2{
+    color: #b3404a;
+    text-shadow: 2.5px 2.5px 3px #f4b2b0 ;
+    
+    
 }
 
+
+ .f1{
+    width: 300px;
+    height: 300px;
+    
+
+
+ }
+
+
+ .icon{
+    display: flex;
+    height: calc( 90vh - 80px);
+    width: 80vw;
+    justify-content: space-around;
+    align-items: center;
+ }
