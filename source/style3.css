@@ -49,23 +49,20 @@ ul{
     width: 40vw;
 }
 
-main{
-    display: flex;
-    height: calc( 90vh - 80px);
-    flex-direction: column;
-    width: 80vw;
-    /* align-items: center; */
-    justify-content: space-evenly;
-    
-}   
+.cartãodedebito{
+    width: 700px;
+    height: 700px;
+   
+}
 
 .pix{
     color: #b3404a;
     text-shadow: 2.5px 2.5px 3px #f4b2b0 ;
+    margin-top: 40px;
     margin-bottom: 15vh;
     width: 20vw;
-    text-align: justify;
 }
+
 .pix2{
     color: #b3404a;
     text-shadow: 2.5px 2.5px 3px #f4b2b0 ;
@@ -73,17 +70,7 @@ main{
     
 }
 
-
- .f1{
-    width: 300px;
-    height: 300px;
-    margin: 0 auto;
-    position: relative;
-
- }
-
-
- .icon{
+.info{
     display: flex;
     height: calc( 90vh - 80px);
     width: 80vw;
