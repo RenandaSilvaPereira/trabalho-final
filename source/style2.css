@@ -65,6 +65,7 @@ main{
     margin-bottom: 15vh;
     width: 20vw;
     text-align: justify;
+    margin-top: 20px;
 }
 .pix2{
     color: #b3404a;
@@ -79,6 +80,7 @@ main{
     height: 300px;
     margin: 0 auto;
     position: relative;
+    margin-left: 30px;
 
  }
 
@@ -89,4 +91,11 @@ main{
     width: 80vw;
     justify-content: space-around;
     align-items: center;
+   
+ }
+
+ a:visited,a:link{
+    color: black;
+    text-decoration: none;
+
  }

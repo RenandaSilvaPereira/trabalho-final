@@ -12,7 +12,7 @@
 .opções{
     font-family: 'Rancho', sans-serif;
     font-size: 30px;
-
+    
 }
 
 .pai{
@@ -60,13 +60,14 @@ ul{
     text-shadow: 2.5px 2.5px 3px #f4b2b0 ;
     margin-top: 40px;
     margin-bottom: 15vh;
-    width: 20vw;
+    width: 35vw;
+    font-size: 30px;
 }
 
 .pix2{
     color: #b3404a;
     text-shadow: 2.5px 2.5px 3px #f4b2b0 ;
-    
+    font-size: 70px;
     
 }
 
@@ -76,4 +77,11 @@ ul{
     width: 80vw;
     justify-content: space-around;
     align-items: center;
+    text-align: justify;
+ }
+
+ a:visited,a:link{
+    color: black;
+    text-decoration: none;
+
  }
